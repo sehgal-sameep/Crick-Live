@@ -42,7 +42,7 @@ if __name__=="__main__":
 
     from twilio.rest import Client
     a_sid="ACe4240d82a107d94ffcfc98fc0f55e604"
-    auth_token="acb4def1c5bc5e99db5fd1dd954e3164"
+    auth_token="c4a69c8d1776582e35d9aa04c4437661"
     client=Client(a_sid,auth_token)
     message= client.messages.create(to='whatsapp:+919034826587', from_='whatsapp:+14155238886',body=whatsapp_message)
     print(message.sid)
